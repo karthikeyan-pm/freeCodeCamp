@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body{
+    background-image: 
+        linear-gradient(180deg, rgba(58,70, 175, 0.8), rgba(75, 85, 210, 0.7)),
+        url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+h1,
+p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1{
+    font-weight: 350;
+}
+
+p {
+    font-style: italic;
+    margin-top: -1rem;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+
+main{
+    margin: 2em auto 0em auto;
+    width: 60%;
+    min-width: 350px;
+    max-width: 800px;
+}
+
+#form-panel {
+    background-color: rgba(10, 10, 10, 0.7);
+    padding: 2em;
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -1rem;
+}
+
+label{
+    font-size: inherit;
+    font-family: inherit;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0.25rem;;
+}
+
+em{
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}
+
+fieldset{
+    margin: 1rem auto 1rem auto;
+    border: 0;
+}
+
+legend{
+    margin-left: -1rem;
+}
+fieldset label{
+    font-size:  0.8rem;
+    display: inline-block;
+    width: 100%;
+    margin-bottom:0.5rem;
+}
+
+fieldset input{
+    display:inline-block;
+    width: auto;
+    margin-bottom:0.5rem;
+}
+
+input, 
+select, 
+textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+select{
+    min-height: 28px;
+}
+
+input::placeholder{
+    color:gray;
+}
+
+textarea{
+    resize: vertical;
+    min-height: 100px;
+    padding: 0.7rem;
+}
+
+#submit{
+    margin: 1em auto 1em auto;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: rgb(50, 198, 102);
+    color: white;
+    font: 0.8em arial;
+    border: 0;
+}
